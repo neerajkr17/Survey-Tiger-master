@@ -1,0 +1,58 @@
+.heading{
+    display: table;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.heading img{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: table-cell;
+    height: 150px;
+    width: 400px;
+}
+
+.heading h1{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.survey-button{
+    background-color: brown;
+    margin: 5px;
+    height: 50px;
+    width: 200px;
+    padding: 12px 0px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+}
+
+.graydiv{
+    background-color: darkgray !important;
+    margin-bottom: 50px;
+}
+
+.tiny{
+    margin:10px 0px 0px 5px !important;
+    background-color: brown !important;
+    color: white !important;    
+}
+
+.hide{
+    visibility: hidden;
+}
+.disable{
+    pointer-events: none;
+}
+
+.input-group{
+    margin-bottom: 30px;
+}
+
+
+.ui.dropdown .menu>.item:hover{
+    background-color: orange;
+    color: white;
+}
